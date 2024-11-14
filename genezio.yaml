@@ -1,0 +1,16 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        build: npm run build
+        deploy:
+            - npm install
+        start:
+            - npm install
+            - npm run dev
+    sdk:
+        language: ts
+    subdomain: limegreen-what-raccoon
+name: react-getting-started
+region: us-east-1
+yamlVersion: 2
